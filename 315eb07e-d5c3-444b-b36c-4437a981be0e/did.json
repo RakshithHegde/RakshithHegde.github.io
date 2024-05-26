@@ -1,0 +1,23 @@
+[
+  {
+    "@context": ["https://www.w3.org/ns/did/v1"],
+    "id": "did:web:rakshithhegde.github.io::315eb07e-d5c3-444b-b36c-4437a981be0e",
+    "alsoKnownAs": ["did.test@gmail.com.test"],
+    "service": [],
+    "verificationMethod": [
+      {
+        "id": "did:web:rakshithhegde.github.io::315eb07e-d5c3-444b-b36c-4437a981be0e#key-0",
+        "type": "Ed25519VerificationKey2020",
+        "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+        "controller": "did:web:rakshithhegde.github.io::315eb07e-d5c3-444b-b36c-4437a981be0e",
+        "publicKeyMultibase": "z6MkkyFFCc7FAbCvqNBcrMF9hdSeNFyFkuzJ2kPFvszRndr5"
+      }
+    ],
+    "authentication": [
+      "did:web:rakshithhegde.github.io::315eb07e-d5c3-444b-b36c-4437a981be0e#key-0"
+    ],
+    "assertionMethod": [
+      "did:web:rakshithhegde.github.io::315eb07e-d5c3-444b-b36c-4437a981be0e#key-0"
+    ]
+  }
+]
